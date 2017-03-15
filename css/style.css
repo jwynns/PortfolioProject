@@ -24,7 +24,7 @@ body {
 	margin: 0;
 	padding: 0;
 	position: fixed;
-	background-color: #ccc;
+	background-color: #FC9E4F;
 }
 
 ul {
@@ -51,12 +51,12 @@ li a:hover {
     background-color: #111;
 }
 footer {
-	display: inline;
-	border: 1px solid #383F51;
-	height: 150px;
-	width: 50px;
+	display: inline-block;
+	height: 100px;
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	background-color: #FC9E4F;
 }
 
 /* index.html styles */
