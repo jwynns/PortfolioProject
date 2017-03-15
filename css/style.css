@@ -1,36 +1,35 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: #ccc;
+	margin: 0;
+	padding: 0;
 }
 
 #container {
-	width: auto;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
-	box-sizing: border-box;
-} 
+	background: #ccc;
+}
 
 
 /* Universal styles */
 
 .clearfix {
-  clear: both;
+	clear: both;
 }
 
 
-nav {
-	display: inline-block;
+.navbar {
+	display: inline;
 	height: 50px;
-	width: 100%;
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+	margin: 0px;
+	padding: 0px;
+	background-color: #333;
 }
 
 
@@ -39,6 +38,7 @@ li {
 }
 
 li a {
+	list-style-type: none;
     display: block;
     color: white;
     padding: 25px 25px;
@@ -47,31 +47,24 @@ li a {
     text-align: left;
 }
 
-li {
-	float: right;
-}
-
-
 li a:hover {
     background-color: #111;
 }
 footer {
-	display: block;
+	display: inline;
 	border: 1px solid #383F51;
 	height: 150px;
 	width: 50px;
+	padding: 50px;
 }
 
 /* index.html styles */
-#hero {
-	border: 3px solid #D1BEB0;
-	display: inline-block;
-	margin: 25px;
-	padding: 25px;
-}
 
-#heropic {
-	height: 150px;
-	width: 150px;
-	border: 3px solid #000;
+#background-image {
+  background: url("http://zaibazhar.com/wp-content/uploads/2014/08/bg1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
