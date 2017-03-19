@@ -65,6 +65,7 @@ footer {
 	margin: 0px;
 	padding: 0px;
 	background-color: #ccc;
+	text-align: center;
 }
 
 footer ul {
@@ -74,18 +75,23 @@ footer ul {
 footer li {
 	text-align: center;
 	text-decoration: none;
+	display: inline;
+	padding: 10px;
 }
 
 footer a {
 	text-decoration: none;
-	color: #1D1F20;
+}
+
+footer i {
+	color: #FA7006;
 }
 
 /* index.html styles */
 
 #background-image {
   background: url("http://zaibazhar.com/wp-content/uploads/2014/08/bg1.jpg");
-  height: 60vh;
+  height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
