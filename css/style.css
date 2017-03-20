@@ -103,7 +103,7 @@ footer div p {
 
 #background-image {
   background: url(https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb);
-  height: 80vh;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,16 +113,17 @@ footer div p {
 .title {
   text-align: center;
   color: #FA7006;
-  padding-top: 200px;
   display: block;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0);
   font-size: xx-large;
+  transform: translateY(-300%); 
 }
 
 .title h3 {
 	color: #fff;
 }
 
+/*
 .main-content {
 	display: flex;
 }
