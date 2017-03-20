@@ -88,18 +88,41 @@ footer i {
 	color: #FA7006;
 }
 
+footer i:hover {
+	transform: scale(1.3);
+}
+
 footer div p {
 	color: #FA7006;
 	padding-left: 40px;
+	font-weight: bold;
+	font-size: large;
 }
 
 /* index.html styles */
 
 #background-image {
-  background: url("http://zaibazhar.com/wp-content/uploads/2014/08/bg1.jpg");
+  background: url(https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb);
   height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.title {
+  text-align: center;
+  color: #FA7006;
+  padding-top: 200px;
+  display: block;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: xx-large;
+}
+
+.title h3 {
+	color: #fff;
+}
+
+.main-content {
+	display: flex;
 }
