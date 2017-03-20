@@ -56,6 +56,7 @@ body {
 .navbar li.active a {
   font-weight: bold;
   color: #333;
+  border-bottom: 5px solid #FA7006;
 }
 
 footer {
