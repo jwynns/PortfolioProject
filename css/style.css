@@ -6,7 +6,7 @@ body {
 	box-sizing: border-box;
 }
 
-#container {
+#wrapper {
 	margin: 0 auto;
 	padding: 0;
 	background: #FAFAFA;
@@ -26,7 +26,8 @@ body {
   top:0;
   left:0;
   background: #1D1F20;
-  z-index:2
+  z-index:5;
+  border-radius: 0px;
 }
 
 .navbar ul{
@@ -58,6 +59,19 @@ body {
   font-weight: bold;
   color: #333;
   border-bottom: 5px solid #FA7006;
+}
+
+.navbar p {
+	padding-left: 35px;
+	margin: 0;
+	float: left;
+	font-size: xx-large;
+    font-weight: bold;
+    line-height: 60px;
+    transform: translateY(75%);
+    transform: skewX(-50deg);
+    letter-spacing: 0.3em;
+    color: #FA7006;
 }
 
 footer {
@@ -104,7 +118,7 @@ footer div p {
 
 #background-image {
   background: url(https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb);
-  height: 80vh;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,21 +128,25 @@ footer div p {
 .title {
   text-align: center;
   color: #FA7006;
-  display: block;
-  background: rgba(0, 0, 0, 0);
-  font-size: xx-large;
-  transform: translateY(-300%); 
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 0 10px;
 }
 
 .title h3 {
 	color: #fff;
 }
-
-.portfolio {
-	margin: 0px;
-	padding: 0px;
-	width: 960px;
+/*
+.img-responsive {
+	display:block; 
+	height: 600px; 
+	width: 100%;
+	padding-right: 0px;
+ 	padding-left: 0px;
 }
+
+
 
 
 
