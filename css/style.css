@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Quattrocento Sans", sans-serif;
+	box-sizing: border-box;
 }
 
 #container {
@@ -25,7 +26,6 @@ body {
   top:0;
   left:0;
   background: #1D1F20;
-  color: white;
   z-index:2
 }
 
@@ -104,7 +104,7 @@ footer div p {
 
 #background-image {
   background: url(https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb);
-  height: 100vh;
+  height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,14 +124,11 @@ footer div p {
 	color: #fff;
 }
 
-
-#main-content {
-	display: flex;
+.portfolio {
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
 }
 
-#portfolio-items {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
+
 
