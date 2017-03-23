@@ -63,7 +63,7 @@ body {
   border-bottom: 5px solid #FA7006;
 }
 
-.navbar p {
+.logo {
 	padding-left: 35px;
 	margin: 0;
 	float: left;
@@ -119,7 +119,7 @@ footer div p {
 /* index.html styles */
 
 #background-image {
-  background: url(https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb);
+  background: url(http://cdn6.feeldesain.com/feel/wp-content/uploads/2012/01/feeldesain-open30-rock-viewing-429.gif);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -134,8 +134,7 @@ footer div p {
   width: 100%;
   top: 40%;
   position: absolute;
-  background-color: rgba(0,0,0,0.5);
-  font-family: 'Roboto Slab', serif;
+  background-color: rgba(0,0,0,.5);
 }
 
 .title h1 {
@@ -147,7 +146,18 @@ footer div p {
 	color: #fff;
 	font-size:2em; 
 }
-
+/*
+.cta {
+  text-align: center;
+  color: #FA7006;
+  margin: auto;
+  width: 100%;
+  top: 75%;
+  position: absolute;
+  font-family: 'Roboto Slab', serif;
+}
+*/
+/*
 .img-responsive {
 	display:block; 
 	height: 600px; 
@@ -155,8 +165,20 @@ footer div p {
 	padding-right: 0px;
  	padding-left: 0px;
 }
+*/
+.portfolio {
+	width: 50%;
+}
 
 
+.portfolio .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
 
-
-
+.portfolio:hover .text {
+visibility:visible;
+background-color: rgba(0,0,0,.5);
+}
