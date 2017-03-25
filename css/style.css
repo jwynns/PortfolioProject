@@ -49,6 +49,7 @@ body {
 	text-decoration: none;
 	color: #FA7006; 
 	text-align: left;
+  font-size: 1.2em;
 }
 
 .navbar ul li:hover{
@@ -166,8 +167,10 @@ footer div p {
  	padding-left: 0px;
 }
 */
-.portfolio {
-	width: 50%;
+.container-fluid {
+  position: relative;;
+  padding: 0;
+  width: 100%;
 }
 
 
@@ -176,6 +179,7 @@ position:relative;
 bottom:30px;
 left:0px;
 visibility:hidden;
+display: block;
 }
 
 .portfolio:hover .text {
