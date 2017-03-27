@@ -173,6 +173,13 @@ footer div p {
   width: 100%;
 }
 
+.col-lg-4 {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
 
 .portfolio .text {
 position:relative;
