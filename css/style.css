@@ -268,6 +268,7 @@ body{
 	width:100%;
 	height:100%;
 	font-family: 'Roboto Condensed', sans-serif;
+  top: 170px;
 	
 }
 
@@ -295,7 +296,8 @@ a:hover,a:focus{
 #contact{
 	background:#333333;
 	color:#f4f4f4;
-	padding-bottom:80px;
+  padding-top: 70px;
+	padding-bottom:55px;
 }
 
 textarea.form-control{
